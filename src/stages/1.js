@@ -19,7 +19,7 @@ function execute(user, msg) {
     return [frases.Duvidas];
   }
   if (msg == "4") {
-    banco.db[user].stage = 0;
+    banco.db[user].stage = 99;
     return [frases.Secretaria]
   }
   return [frases.Naoentendeu , frases.Menu ];
